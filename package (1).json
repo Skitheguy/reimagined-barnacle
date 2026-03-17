@@ -1,0 +1,17 @@
+{
+  "name": "discord-trade-bot",
+  "version": "2.0.0",
+  "description": "Discord trading bot with technical analysis, P&L tracking, position sizing, and webhooks",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
